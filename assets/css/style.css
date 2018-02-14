@@ -94,8 +94,8 @@ p {
 /* 1st section */
 
 #section-01 {
-    background-color: #fdd501;
-    color: black;
+    background-color: #333;
+    color: #f9fafe;
     padding: 2rem .75rem;
     text-align: center;
 }
@@ -104,7 +104,7 @@ p {
 
 #section-02 {
     padding: 2em .25rem;
-    background-color: #fdd501;
+    background-color: #333;
 }
 
 #section-02 ul {
@@ -116,7 +116,6 @@ p {
 
 #section-02 li {
     margin-bottom: 1rem;
-    color: #333;
     border-radius: .25rem;
     overflow: hidden;
 }
@@ -162,8 +161,8 @@ p {
 
 #section-03 .box {
     padding: 2em;
-    background-color: black;
-    color: #fff;
+    background-color: #333;
+    color: #f9fafe;
     text-align: center;
 }
 
@@ -175,8 +174,8 @@ p {
 
 #main-footer {
     padding: 2em;
-    background-color: #000;
-    color: #fff;
+    background-color: #333;
+    color: #f9fafe;
     text-align: center;
 }
 
