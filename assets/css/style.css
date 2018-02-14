@@ -168,7 +168,12 @@ p {
 
 .contact-link {
     text-decoration: none;
-    color: #50928a;
+    color: inherit;
+    transition: color .5s ease-in-out;
+}
+
+.contact-link:hover {
+    color: steelblue;
 }
 /* footer */
 
