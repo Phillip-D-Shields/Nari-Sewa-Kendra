@@ -1,5 +1,6 @@
 $(document).ready(function () {
    
+    var scrollLink = $('.scroll');
     var lastScrollTop = 0;
     
     $(window).scroll(function () {
@@ -17,4 +18,22 @@ $(document).ready(function () {
             lastScrollTop = scrollTop;
         }
     });
+
+    scrollLink.click(function(e) {
+        e.preventDefault();
+        $('body,html').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 500)
+    });
+
+
+
+
+
+
+
+
+
+
+
 });

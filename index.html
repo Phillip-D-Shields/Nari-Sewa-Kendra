@@ -12,13 +12,16 @@
 
 <body>
     <nav class="nav-bar flex">
-        <a href="#showcase">
+        <a href="#showcase" class="scroll">
             <span class="blue">महिला</span> सेवा
             <span class="blue"> केन्द्र</span>
         </a>
-        <a href="#section-02">About</a>
-        <a href="#section-03">Contact</a>
-        <a href="#donate"><span class="red"><i class="fas fa-heartbeat"></i></span> Donate</a>
+        <a href="#section-02" class="scroll">About</a>
+        <a href="#section-03" class="scroll">Contact</a>
+        <a href="#donate" class="scroll">
+            <span class="red">
+                <i class="fas fa-heartbeat"></i>
+            </span> Donate</a>
     </nav>
     <!-- header -->
     <header id="showcase" class="flex">
@@ -40,7 +43,8 @@
         <!-- 1st section -->
         <section id="section-01" class="grid">
             <div class="content-wrap">
-                <h2 class="content-title">Who <span class="blue">We</span> Are</h2>
+                <h2 class="content-title">Who
+                    <span class="blue">We</span> Are</h2>
                 <div class="content-text">
                     <p>
                         <span class="blue">Nari Sewa Kendra</span> is Nepali for Womens Service Center, which is exactly what we started as
@@ -87,15 +91,16 @@
                             <p>We are maintained by a dedicated group of volunteers, and we are always excited to welcome a
                                 new face. There are many ways that you can help today!</p>
                             <div class="flex volunteer-options">
-                                <span>Make a
-                                    <a href="#donate" class="about-link">donation</a>
-                                </span>
-                                <span>Visit
-                                    <a href="https://www.google.com/maps/place/Pokhara,+Nepal/@28.2296507,83.8161889,11z/data=!3m1!4b1!4m5!3m4!1s0x3995937bbf0376ff:0xf6cf823b25802164!8m2!3d28.237987!4d83.9955879" target="_blank" class="about-link">us</a>
-                                </span>
-                                <span>Help improve our
-                                    <a href="helpWanted.html" target="_blank" class="about-link">materials</a>
-                                </span>
+                                <a href="#donate" class="about-link">
+                                    <span>Make a donation</span>
+                                </a>
+                                <a href="https://www.google.com/maps/place/Pokhara,+Nepal/@28.2296507,83.8161889,11z/data=!3m1!4b1!4m5!3m4!1s0x3995937bbf0376ff:0xf6cf823b25802164!8m2!3d28.237987!4d83.9955879"
+                                    target="_blank" class="about-link">
+                                    <span>Visit us</span>
+                                </a>
+                                <a href="helpWanted.html" target="_blank" class="about-link">
+                                    <span>Help improve our materials</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -117,8 +122,11 @@
                 </a>
             </div>
             <div id="donate" class="box">
-                <h2 class="content-title"><span class="red"><i class="fas fa-heartbeat"></i></span> Donate
-                    
+                <h2 class="content-title">
+                    <span class="red">
+                        <i class="fas fa-heartbeat"></i>
+                    </span> Donate
+
                 </h2>
                 <p>YOU can can help us build a stronger Nepal! Big or small, every donation makes a difference.</p>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -131,7 +139,7 @@
                     <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
                     <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>           
+                </form>
             </div>
         </section>
     </main>
