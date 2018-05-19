@@ -168,15 +168,19 @@ p {
 /* 3rd section */
 
 #section-03 .box {
-    padding: 2em;
+    height: 16rem;
+    padding: 2rem;
     background-color: var(--bg-black);
     color: var(--fg-white);
     text-align: center;
+    overflow: hidden;
 }
 
 .contact-link {
     text-decoration: none;
     color: inherit;
+    -webkit-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
 }
 
@@ -186,7 +190,7 @@ p {
 /* footer */
 
 #main-footer {
-    padding: 2em;
+    padding: 2rem;
     background-color: var(--bg-black);
     color: var(--fg-white);
     text-align: center;
@@ -201,8 +205,10 @@ p {
 
 @media only screen and (min-width: 768px) {
     .grid {
+        display: -ms-grid;
         display: grid;
-        grid-template-columns: 1fr repeat(2, minmax(auto, 25rem)) 1fr;
+        -ms-grid-columns: 1fr (minmax(auto, 25rem))[2] 1fr;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 25rem)) 1fr;
     }
     #showcase,
     #showcase .bg-img0 {
@@ -241,6 +247,8 @@ p {
     }
     .content-wrap,
     #section-02 ul {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 4;
         grid-column: 1/5;
     }
     .box {
